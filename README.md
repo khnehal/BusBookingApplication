@@ -19,6 +19,10 @@ cd BusBookingApplication/BusBooking/
 
 ### Install
 ```
+virtualenv -p python3 busbooking
+
+source busbooking/bin/activate
+
 pip install -r requirements.txt
 
 python manage.py migrate
